@@ -17,5 +17,16 @@
         <div class="font-sans text-gray-900 antialiased">
             {{ $slot }}
         </div>
+        
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-R4KR4FG0MC"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-R4KR4FG0MC');
+        </script>
+
     </body>
 </html>
